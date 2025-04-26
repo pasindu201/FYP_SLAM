@@ -27,7 +27,7 @@ if(BUILD_ORBSLAM3)
 endif()
 
 # Add XFeatSLAM if enabled
-if(BUILD_XFEATSLAM)
+if(BUILD_XFEATSLAM) 
   # XFeatSLAM uses C++17
   add_subdirectory(XFeatSLAM)
 endif()
